@@ -1,0 +1,114 @@
+body{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    background-color: #ecf2f8;
+}
+.main{
+    /* background-color: pink; */
+    height: 85%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+    gap: 20px;
+
+}
+.daniel{
+    grid-area: daniel;
+    background-color: #7541c8;
+    background-image: url(https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 7%; */
+    padding: 7%;
+    /* gap: 0px; */
+    color:white
+
+}
+
+.jonathan{
+    grid-area: jonathan;
+    background-color: #48556a;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    color: white;
+}
+.kira{
+    grid-area: kira;
+    background-color: white;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    padding: 7%;
+}
+.jeanette{
+    grid-area: jeanette;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    color: black;
+}
+.patrick{
+    grid-area: patrick;
+    background-color: #19212e;
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    color: white;
+}
+.main>div{
+    border-radius: 15px;
+}
+.name{
+    width: 90%;
+    padding: 0px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content:; */
+    /* align-items:start; */
+    /* background-color: navy; */
+    /* line-height: 0px; */
+    margin-left: 20px;
+
+}
+.profile{
+    display: flex;
+    /* background-color: aqua; */
+}
+img{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+}
+h5{
+    margin-top: 0px;
+    padding: 0px;
+    line-height: 1;
+    /* background-color: brown; */
+}
+.name>p{
+    margin-top: -20px;
+    padding: 0px;
+    /* background-color: rgb(77, 60, 28); */
+    font-size:x-small;
+    line-height: 1;
+
+    color: black;
+    opacity: 0.5;
+}
+.info>p{
+    font-size:0.84rem;
+    font-weight: 540;
+    color: black;
+    opacity: 0.5;
+}
